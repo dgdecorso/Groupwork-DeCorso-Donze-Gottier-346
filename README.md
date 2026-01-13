@@ -69,11 +69,11 @@ Beim Repurchasing wird die bestehende, selbst entwickelte CRM-Applikation vollst
 
 | Variante | Monatliche Kosten |
 |----------|------------------|
-| **AWS (IaaS)** | ~71 USD |
-| **Azure (IaaS)** | ~103 USD |
-| **Heroku (PaaS)** | 400 USD |
-| **Zoho CRM (SaaS)** | 1.200 EUR |
-| **Salesforce (SaaS)** | 5.250 USD |
+| **AWS (IaaS)** | ~71 $ |
+| **Azure (IaaS)** | ~103 $ |
+| **Heroku (PaaS)** | 400 $ |
+| **Zoho CRM (SaaS)** | 1'200 € |
+| **Salesforce (SaaS)** | 3'000 $ |
 
 ### Warum sind die Kosten unterschiedlich?
 
