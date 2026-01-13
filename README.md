@@ -27,6 +27,22 @@ Speichergrößen nur in Stufen → leichte Abweichung
 Azure Backup deckt Retention-Anforderungen ab
 
 ## B)
-<img width="1799" height="731" alt="image" src="https://github.com/user-attachments/assets/4a08bbb1-dff0-4d00-8603-0e48986ea9ce" />
+## Heroku Kostenrechnung (PAAS / Replatforming) – CRM (30 Benutzer)
+
+| Komponente           | Plan        | CPU                         | RAM  | Disk                                                     | Anzahl | Preis / Monat (USD) | Kosten / Monat (USD) |
+|---------------------|-------------|-----------------------------|------|----------------------------------------------------------|--------|---------------------|----------------------|
+| Heroku Dyno (Web)   | Standard-2X | CPU Share 2x (Compute 2x–8x) | 1 GB | Ephemeral FS (nicht persistent), Slug ≤ 500 MB (komprimiert) | 1      | 50                  | 50                   |
+| Heroku Postgres (DB)| Premium-2   | 2 vCPU                      | 8 GB | 256 GB                                                   | 1      | 350                 | 350                  |
+
+**Total:** $400 / Monat
+## Backup-Anforderungen / Abdeckung (Heroku PGBackups)
+
+| Backup Policy (PGBackups, Scheduled) | Retention              |
+|--------------------------------------|------------------------|
+| Daily                                | 7 Tage                 |
+| Weekly                               | 8 Wochen (Premium)     |
+| Monthly                              | 12 Monate (Premium)    |
+
+Wir wählen **1× Standard-2X Dyno** für den Web-Teil, weil die App bei Heroku ohne OS-/Server-Overhead läuft und sich bei Bedarf sehr schnell vertikal (größerer Dyno) oder horizontal (mehr Dynos) skalieren lässt. Für die Datenbank nehmen wir **Heroku Postgres Premium-2**, weil nur der **Premium-Tier** die geforderten **monatlichen Backups** (Retention) abdeckt und gleichzeitig genug Performance-Reserven bietet. Die Abweichung zur On-Prem-Disk ist bewusst: Heroku-Dynos haben **kein persistentes Filesystem**, daher gehören Daten/Uploads in **Postgres bzw. externen Storage**, was Betrieb und Backup-Handling vereinfacht.
 
 
