@@ -1,6 +1,5 @@
 # Groupwork-DeCorso-Donze-Gottier-346
 ## A)
-<img width="2796" height="1406" alt="image" src="https://github.com/user-attachments/assets/c8b466b4-7a08-43a9-a92b-b6600fe8e87a" />
 <img width="2070" height="378" alt="image" src="https://github.com/user-attachments/assets/329c8cfd-6371-44b1-bd6e-79f06415490a" />
 <img width="2058" height="442" alt="image" src="https://github.com/user-attachments/assets/54f193f9-02ee-4db0-a7c0-a8e0d6f5a11a" />
 
