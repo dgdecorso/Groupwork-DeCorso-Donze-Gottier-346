@@ -18,7 +18,7 @@ Backups über EBS Snapshots: tägliche, wöchentliche und monatliche Aufbewahrun
 <img width="2376" height="1172" alt="image" src="https://github.com/user-attachments/assets/5957769e-3158-4ffd-9295-f3b52fa5ac01" />
 <img width="2428" height="1209" alt="image" src="https://github.com/user-attachments/assets/5b3e2d71-dfcd-4d66-a78a-3fd2f3b04fa2" />
 <img width="2339" height="1293" alt="image" src="https://github.com/user-attachments/assets/a982c8f4-b54f-4922-bf1a-fd941d24ea89" />
-[ExportedEstimate.xlsx](https://github.com/user-attachments/files/24583059/ExportedEstimate.xlsx)
+[ExportedEstimate.pdf](https://github.com/user-attachments/files/24585472/ExportedEstimate.pdf)
 
 Azure bietet sehr kleine B-VMs → nahe an On-Premise
 
