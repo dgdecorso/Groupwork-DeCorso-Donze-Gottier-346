@@ -73,7 +73,7 @@ Beim Repurchasing wird die bestehende, selbst entwickelte CRM-Applikation vollst
 | **Azure (IaaS)** | ~103 $ |
 | **Heroku (PaaS)** | 400 $ |
 | **Zoho CRM (SaaS)** | 1'200 € |
-| **Salesforce (SaaS)** | 3'000 $ |
+| **Salesforce (SaaS)** | 3'000 € |
 
 ### Warum sind die Kosten unterschiedlich?
 
