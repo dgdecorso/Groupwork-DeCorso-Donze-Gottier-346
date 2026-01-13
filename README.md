@@ -1,4 +1,4 @@
-# Groupwork-DeCorso-Donze-Gottier-346
+<img width="2796" height="1406" alt="image" src="https://github.com/user-attachments/assets/c8b466b4-7a08-43a9-a92b-b6600fe8e87a" /># Groupwork-DeCorso-Donze-Gottier-346
 ## A)
 <img width="2070" height="378" alt="image" src="https://github.com/user-attachments/assets/329c8cfd-6371-44b1-bd6e-79f06415490a" />
 <img width="2058" height="442" alt="image" src="https://github.com/user-attachments/assets/54f193f9-02ee-4db0-a7c0-a8e0d6f5a11a" />
@@ -45,4 +45,19 @@ Azure Backup deckt Retention-Anforderungen ab
 
 Wir wählen **1× Standard-2X Dyno** für den Web-Teil, weil die App bei Heroku ohne OS-/Server-Overhead läuft und sich bei Bedarf sehr schnell vertikal (größerer Dyno) oder horizontal (mehr Dynos) skalieren lässt. Für die Datenbank nehmen wir **Heroku Postgres Premium-2**, weil nur der **Premium-Tier** die geforderten **monatlichen Backups** (Retention) abdeckt und gleichzeitig genug Performance-Reserven bietet. Die Abweichung zur On-Prem-Disk ist bewusst: Heroku-Dynos haben **kein persistentes Filesystem**, daher gehören Daten/Uploads in **Postgres bzw. externen Storage**, was Betrieb und Backup-Handling vereinfacht.
 
+## C) 
+
+<img width="1459" height="733" alt="image" src="https://github.com/user-attachments/assets/614ef276-3891-4e01-9bbf-a770ffea820f" />
+Für Zoho CRM wurde der Enterprise-Plan (40 € pro Benutzer und Monat) betrachtet, da dieser alle für ein KMU relevanten CRM-Funktionen bietet und für 30 Benutzer geeignet ist.
+<img width="1440" height="658" alt="image" src="https://github.com/user-attachments/assets/29f3aba4-d27f-42b1-9df4-797556561c14" />
+Für Salesforce Sales Cloud wurde der Pro-Suite-Plan gewählt, da dieser die notwendigen CRM-Funktionen für den täglichen Betrieb bereitstellt, während höhere Pläne für die Anforderungen der Firma nicht erforderlich sind.
+
+| Anbieter | Plan       | Preis / User | Benutzer | Monatliche Kosten |
+| -------- | ---------- | ------------ | -------- | ----------------- |
+| Zoho CRM | Enterprise | 40 €         | 30       | ca. 1'200 €       |
+| Salesforce| Pro Suite | 100 € | 30 | ca. 3'000 € |
+
+Wir haben Zoho CRM ausgewählt, da es für die Anforderungen der Firma funktional ausreichend ist und im Vergleich zu Salesforce deutlich geringere Kosten verursacht.
+
+Beim Repurchasing wird die bestehende, selbst entwickelte CRM-Applikation vollständig durch eine Standard-SaaS-Lösung ersetzt. Die Firma betreibt keine eigene Software mehr und lagert Betrieb, Wartung, Updates und Backups vollständig an den SaaS-Anbieter aus.
 
