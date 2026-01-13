@@ -8,3 +8,8 @@
 <img width="2339" height="1293" alt="image" src="https://github.com/user-attachments/assets/a982c8f4-b54f-4922-bf1a-fd941d24ea89" />
 [ExportedEstimate.xlsx](https://github.com/user-attachments/files/24583059/ExportedEstimate.xlsx)
 test test test
+Azure bietet sehr kleine B-VMs → nahe an On-Premise
+
+Speichergrößen nur in Stufen → leichte Abweichung
+
+Azure Backup deckt Retention-Anforderungen ab
