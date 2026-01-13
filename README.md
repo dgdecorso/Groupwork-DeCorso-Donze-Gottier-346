@@ -1,5 +1,5 @@
 # Groupwork-DeCorso-Donze-Gottier-346
-##A)
+## A)
 <img width="2070" height="378" alt="image" src="https://github.com/user-attachments/assets/329c8cfd-6371-44b1-bd6e-79f06415490a" />
 <img width="2058" height="442" alt="image" src="https://github.com/user-attachments/assets/54f193f9-02ee-4db0-a7c0-a8e0d6f5a11a" />
 
@@ -25,4 +25,8 @@ Azure bietet sehr kleine B-VMs → nahe an On-Premise
 Speichergrößen nur in Stufen → leichte Abweichung
 
 Azure Backup deckt Retention-Anforderungen ab
+
+## B)
+<img width="1799" height="731" alt="image" src="https://github.com/user-attachments/assets/4a08bbb1-dff0-4d00-8603-0e48986ea9ce" />
+
 
