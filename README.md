@@ -61,3 +61,54 @@ Wir haben Zoho CRM ausgewählt, da es für die Anforderungen der Firma funktiona
 
 Beim Repurchasing wird die bestehende, selbst entwickelte CRM-Applikation vollständig durch eine Standard-SaaS-Lösung ersetzt. Die Firma betreibt keine eigene Software mehr und lagert Betrieb, Wartung, Updates und Backups vollständig an den SaaS-Anbieter aus.
 
+# D) Interpretation der Resultate
+
+## 1. Kostenvergleich
+
+### Monatliche Kosten im Überblick:
+
+| Variante | Monatliche Kosten |
+|----------|------------------|
+| **AWS (IaaS)** | ~71 USD |
+| **Azure (IaaS)** | ~103 USD |
+| **Heroku (PaaS)** | 400 USD |
+| **Zoho CRM (SaaS)** | 1.200 EUR |
+| **Salesforce (SaaS)** | 5.250 USD |
+
+### Warum sind die Kosten unterschiedlich?
+
+- **IaaS (AWS/Azure):** Nur Infrastruktur (VMs, Storage). Günstigste Option, aber Sie managen alles selbst. Azure teurer wegen grösserer Instanzen.
+
+- **PaaS (Heroku):** 5-6x teurer als AWS. Inkludiert automatisches Deployment, Skalierung, Monitoring und Backup-Management. Sie zahlen für Komfort und weniger Komplexität.
+
+- **SaaS (Zoho/Salesforce):** 17-74x teurer als AWS. Komplette fertige CRM-Software mit Support, Updates und Integrationen. Salesforce teurer wegen Enterprise-Features und KI-Funktionen.
+
+### Versteckte Kosten:
+
+- **IaaS/PaaS:** Personalkosten für Administration (ca. 1.000-2.000 EUR/Monat), Entwicklungskosten, Monitoring-Tools, Schulungen
+- **SaaS:** Migrationskosten, Schulungen für alle 30 Benutzer, mögliche Anpassungskosten
+
+### Sind die Unterschiede gerechtfertigt?
+
+Ja, jede Option bietet unterschiedliche Leistungen. Bei IaaS zahlen Sie nur für Server, müssen aber alles selbst machen. Bei SaaS zahlen Sie für eine komplett fertige Lösung ohne Entwicklungsaufwand. Wenn man Personalkosten einrechnet, relativieren sich die Preisunterschiede stark.
+
+---
+
+## 2. Aufwand für Ihre Firma
+
+| Variante | Migrationsaufwand | Laufender IT-Aufwand | Besonderheiten |
+|----------|------------------|---------------------|----------------|
+| **AWS** | 4-6 Wochen | 15-20% einer IT-Stelle | Server-Setup, manuelle Updates, Backup-Verwaltung |
+| **Azure** | 4-6 Wochen | 15-20% einer IT-Stelle | Identisch zu AWS, etwas einfacher bei Office 365-Nutzung |
+| **Heroku** | 2-4 Wochen | 5-8% einer IT-Stelle | Code-Anpassung nötig, aber weniger Infrastruktur-Management |
+| **Zoho** | 6-10 Wochen | 2-5% einer IT-Stelle | Datenmigration, Schulung aller 30 User, keine Code-Entwicklung mehr |
+| **Salesforce** | 8-12 Wochen | 5-8% einer IT-Stelle | Komplexere Konfiguration, intensive Schulungen, evtl. Consultant nötig |
+
+### Hauptunterschiede:
+
+- **IaaS/PaaS:** Sie entwickeln und pflegen weiterhin Ihre eigene CRM-Software. Hoher technischer Aufwand, volle Kontrolle.
+- **SaaS:** Software-Entwicklung entfällt komplett. Aufwand verschiebt sich zu Change-Management und User-Schulung. Sie müssen Geschäftsprozesse an Standard-Software anpassen.
+
+### Fazit:
+
+IaaS ist am günstigsten aber aufwändigsten. SaaS ist am teuersten aber mit geringstem IT-Aufwand. Die Wahl hängt davon ab, ob Sie Kosten minimieren oder IT-Komplexität reduzieren wollen.
